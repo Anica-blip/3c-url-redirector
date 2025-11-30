@@ -1,0 +1,21 @@
+# Cloudflare Worker Configuration for 3C URL Redirector
+# Branded short links for 3C Thread To Success
+
+name = "3c-url-redirector"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Routes - Connect to your custom domain
+# Option 1: Use a subdomain like go.3c-public-library.org
+[[routes]]
+pattern = "go.3c-public-library.org/*"
+zone_name = "3c-public-library.org"
+
+# Option 2: Use the main domain (if you prefer)
+# [[routes]]
+# pattern = "3c-public-library.org/*"
+# zone_name = "3c-public-library.org"
+
+# Environment Variables
+[vars]
+ENVIRONMENT = "production"
