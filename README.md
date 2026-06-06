@@ -1,5 +1,7 @@
 # 🔗 3C URL Redirector - Branded Short Links
 
+> ⚖️ This repository is protected under a binding [Legal Disclaimer](./LEGAL_DISCLAIMER.md) that governs all use, cloning, and forking from the date of inception. Please read before use.
+
 **Transform long URLs into clean, branded short links that build trust!**
 
 ## ✨ Features
